@@ -56,15 +56,39 @@
 		AC8EE5922387D7D200B29869 /* Persist Data Example */ = {
 			isa = PBXGroup;
 			children = (
-				AC8EE5932387D7D200B29869 /* AppDelegate.swift */,
-				AC8EE5952387D7D200B29869 /* SceneDelegate.swift */,
-				AC8EE5972387D7D200B29869 /* ViewController.swift */,
-				AC8EE5992387D7D200B29869 /* Main.storyboard */,
+				AC8EE5A72387D7EB00B29869 /* Delegates */,
+				AC8EE5A92387D80200B29869 /* Controllers */,
+				AC8EE5A82387D7FB00B29869 /* Views */,
 				AC8EE59C2387D7D900B29869 /* Assets.xcassets */,
-				AC8EE59E2387D7D900B29869 /* LaunchScreen.storyboard */,
 				AC8EE5A12387D7D900B29869 /* Info.plist */,
 			);
 			path = "Persist Data Example";
+			sourceTree = "<group>";
+		};
+		AC8EE5A72387D7EB00B29869 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				AC8EE5932387D7D200B29869 /* AppDelegate.swift */,
+				AC8EE5952387D7D200B29869 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		AC8EE5A82387D7FB00B29869 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC8EE5992387D7D200B29869 /* Main.storyboard */,
+				AC8EE59E2387D7D900B29869 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC8EE5A92387D80200B29869 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC8EE5972387D7D200B29869 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Persist-Data-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Persist-Data-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
