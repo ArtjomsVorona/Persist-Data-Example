@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9s-nr-B4u">
-                                <rect key="frame" x="145" y="232" width="125" height="60"/>
+                                <rect key="frame" x="144.5" y="232" width="125" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="125" id="oKF-ou-xU8"/>
                                     <constraint firstAttribute="height" constant="60" id="usb-rk-1dn"/>
@@ -63,7 +63,7 @@
                     </view>
                     <connections>
                         <outlet property="counterLabel" destination="N9s-nr-B4u" id="BHO-Bu-dyH"/>
-                        <outlet property="shouldSaveCounterSegmentedControl" destination="ix6-ZL-uBh" id="4Eo-vF-Fex"/>
+                        <outlet property="shouldSaveSegmentedControl" destination="ix6-ZL-uBh" id="4Eo-vF-Fex"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
